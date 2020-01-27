@@ -1,0 +1,17 @@
+{% block content %}
+
+<nav class="top-menu">
+    <ul class="menu-main">
+      <li class="left-item"><a href="/">Главная</a></li>
+      <li class="left-item"><a href="/about">О нас</a></li>
+      <li class="left-item"><a href="/uslugi">Услуги</a></li>
+      <li class="right-item"><a href="/service">Сервисы</a></li>
+      <li class="right-item"><a href="/cabinet">Кабинет</a></li>
+      <li class="right-item"><a href="/contact">Контакты</a></li>
+  </ul>
+    {% load staticfiles %}
+    <a class="navbar-logo" href="/"><img src="{% static 'image/logoMenu.png' %}"></a>
+  </nav>
+
+
+{% endblock %}
