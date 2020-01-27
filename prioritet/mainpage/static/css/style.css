@@ -1,0 +1,91 @@
+body {background-image: url(bg.jpg); 
+    background-repeat:  repeat-y;
+    background-color: black;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */}
+            
+.maintext{
+    background-color: #2409b9;
+    color: white;
+    opacity: 0.7;
+    font-family: 'Times New Roman', Times, serif; /* Гарнитура текста */ 
+    font-size: 18px; /* Размер шрифта в процентах */ 
+    box-sizing: border-box;
+    text-align: justify;
+    display: block;
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
+}
+
+           
+.context{
+    background-color: #414144;
+    color: white;
+    opacity: 0.7;
+    font-family: 'Times New Roman', Times, serif; /* Гарнитура текста */ 
+    font-size: 16px; /* Размер шрифта в процентах */ 
+    box-sizing: border-box;
+    text-align: justify;
+    display: block;
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
+}
+           
+.usltext{
+    background-color: #03835c;
+    color: white;
+    opacity: 0.7;
+    font-family: 'Times New Roman', Times, serif; /* Гарнитура текста */ 
+    font-size: 16px; /* Размер шрифта в процентах */ 
+    box-sizing: border-box;
+    text-align: justify;
+    display: block;
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
+}
+
+.cloud-logo {
+    display: inline-block; /* Блочный элемент (для старых браузеров) */
+    margin-top: 0; /* Отступ сверху */
+    margin-bottom: 5px; /* Отступ снизу */
+    color: #666; /* Цвет подрисуночной подписи */
+  }
+
+  IMG.fig {
+    float: right; /* Обтекание картинки по левому краю */
+    padding-left: 10px; /* Отступ слева */
+    padding-bottom: 10px; /* Отступ снизу */
+    opacity: 1;
+   }
+
+
+IMG.fig2 {
+    float: left; /* Обтекание картинки по левому краю */
+    padding-left: 10px; /* Отступ слева */
+    padding-bottom: 10px; /* Отступ снизу */
+    opacity: 1;
+   }
+
+   
+.abouttext{
+    background-color: #4b3e03;
+    color: white;
+    opacity: 0.7;
+    font-family: 'Times New Roman', Times, serif; /* Гарнитура текста */ 
+    font-size: 18px; /* Размер шрифта в процентах */ 
+    box-sizing: border-box;
+    text-align: justify;
+    display: block;
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
+}
